@@ -36,3 +36,11 @@ docker run -d --network=reddit --network-alias=post post:1.0
 docker run -d --network=reddit --network-alias=comment comment:1.0
 docker run -d --network=reddit -p 9292:9292 ui:2.0
 ```
+
+## Запуск через docker-compose
+
+В основной директории проекта выполнить
+```
+docker-compose up -d
+```
+В файле .env можно задать параметры для создаваемой инфраструктуры
