@@ -1,3 +1,4 @@
 *.lock
 homework3-notes.txt
 .env
+build_info.txt
