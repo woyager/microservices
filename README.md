@@ -44,3 +44,7 @@ docker run -d --network=reddit -p 9292:9292 ui:2.0
 docker-compose up -d
 ```
 Параметры для создаваемой инфраструктуры следует задать в файле .env. Пример .env.example.
+
+## Мониторинг приложения
+
+IP:9090 - prometheus
