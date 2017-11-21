@@ -2,7 +2,7 @@ version: '3.3'
 services:
 
   prometheus:
-    image: ${USER_NAME}/prometheus
+    image: ${USERNAME}/prometheus
     ports:
       - '9090:9090'
     networks:
@@ -57,7 +57,7 @@ services:
       back_net:
 
   alertmanager:
-    image: ${USER_NAME}/alertmanager
+    image: ${USERNAME}/alertmanager
     command:
       - '-config.file=/etc/alertmanager/config.yml'
     ports:
